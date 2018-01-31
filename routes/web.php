@@ -23,3 +23,4 @@ Route::get('/', function()
 });
 
 Route::get('/cursos', 'cursosController@index'); //uso de Controllers para melhorar as views nas rotas
+Route::get('/cursos/{index}','CursosController@show');
